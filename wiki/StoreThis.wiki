@@ -37,11 +37,11 @@ delete the configuration folder.
 
 If you change the name of the executable, it will look for a different
 configuration; this way, one user can have
-scripts for "Store2UsbDisk" and "Store2RemoteBackup",
+scripts for `"Store2UsbDisk"` and `"Store2RemoteBackup"`,
 for example.
 
 The configuration is stored by default
-in ~/Library/Application Support/StoreThis or
-in ~/.StoreThis. If you change the name of the
+in `~/Library/Application Support/StoreThis` or
+in `~/.StoreThis`. If you change the name of the
 executable, the name of these folders change
 likewise.
