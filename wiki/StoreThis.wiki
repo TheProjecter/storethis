@@ -35,8 +35,7 @@ a per-user basis: each user will have it's own
 StoreThis settings. To reset the configuration,
 delete the configuration folder.
 
- If you change the name of
-the executable, it will look for a different
+If you change the name of the executable, it will look for a different
 configuration; this way, one user can have
 scripts for "Store2UsbDisk" and "Store2RemoteBackup",
 for example.
