@@ -3,7 +3,7 @@
 = Introduction =
 
 StoreThis backs up the current working
-directory (or the directroy in which it was 
+directory (or the directory in which it was 
 launched) to either a local disk or a remote 
 server using rsync & ssh. 
  
@@ -12,7 +12,7 @@ both a mirror and timestamped backups of
 previous versions of all files.
 
 The first time you run it, it will prompt for 
-some configuration options, and if set up 
+some configuration options, and set up 
 fingerprints (public ssh keys) for a remote 
 backup if needed. Once configured, it runs 
 promptless. 
