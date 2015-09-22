@@ -1,0 +1,46 @@
+# Introduction #
+
+StoreThis backs up the current working
+directory (or the directory in which it was
+launched) to either a local disk or a remote
+server using rsync & ssh.
+
+On the destination server or disk, it creates
+both a mirror and timestamped backups of
+previous versions of all files.
+
+The first time you run it, it will prompt for
+some configuration options, and set up
+fingerprints (public ssh keys) for a remote
+backup if needed. Once configured, it runs
+promptless.
+
+This is particularly usefull for GUI client
+machines (like MacOSX or Gnome), because you
+can store a copy of the executable in every
+directory you want backed up, and click it
+whenever you want to back it up. You'll only
+need to configure it once.
+
+But if you like, you can call it with command
+line arguments instead of the mentioned config,
+too.
+
+
+# Configuration #
+
+The configuration is stored on
+a per-user basis: each user will have it's own
+StoreThis settings. To reset the configuration,
+delete the configuration folder.
+
+If you change the name of the launcher, it will look for a different
+configuration; this way, one user can have different
+settings for `"Store2UsbDisk"` and `"Store2RemoteBackup"`,
+for example.
+
+The configurations are stored by default
+in `~/Library/Application Support/StoreThis` (mac) or
+in `~/.StoreThis` (other). If you change the name of the
+launcher, the name of this folder changes
+likewise.
